@@ -13,7 +13,7 @@ Have a Docker up and running.
 Clone the repository:
 
 ```
-git clone XXX
+git clone https://github.com/lfniederauer/django-number-text-translator.git
 ```
 
 ### Installing and Running
