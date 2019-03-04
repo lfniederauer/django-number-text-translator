@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+    trad:
+      image: tradutor-numeros
+      build:
+        context: .
+        dockerfile: Dockerfile
+        labels:
+          certi.test.description: "Tradução de texto"

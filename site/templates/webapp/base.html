@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<!-- Begin Head -->
+<head>
+    <title>{% block head_title %}Demo LFN{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1;" charset="UTF-8" />
+    <meta name="robots" content="follow">
+
+    <meta name="description" content="Demonstrativo Tradutor">
+    <meta name="author" content="lfniederauer">
+    <meta name="copyright" content="2019">
+    <meta name="keywords" content="Muitas keywords, com certeza.">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    <main>
+        {% block header %}
+        {% endblock header %}
+        {% block content %}
+        {% endblock content %}
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>

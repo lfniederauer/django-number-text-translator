@@ -1,0 +1,23 @@
+{% extends 'webapp/base.html' %}
+{% block head_title %}{{ block.super }}{% endblock head_title%}
+
+{% block content %}
+
+<div class="container jumbotron text-center">
+  <h1>PT_BR numbers translator</h1>
+  <p>Tradutor de números para escrita extensa PT_BR.</p>
+</div>
+
+
+<div class="container">
+    <h2>
+        Django - Wsgi - JsonResponse
+    </h2>
+    </br>
+    <p>This app returns any number written in words as a JSON key for each GET request.</p>
+    <p>It is allowed numbers between -99999 to +99999.</p>
+    <p>Bonus: beyond that limit the numbers will be shown anyway. =)</p>
+</div>
+
+
+{% endblock content %}

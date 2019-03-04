@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+    trad:
+#      environment:
+#        - DEBUG=true
+      volumes:
+#        - django-folder:/usr/src/app/
+        - ./site:/usr/src/app/
+      ports:
+        - 3000:8001
